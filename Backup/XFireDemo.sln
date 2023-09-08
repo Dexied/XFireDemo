@@ -1,3 +1,4 @@
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31314.256
@@ -117,8 +118,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UE5Rules", "..\..\UnrealEng
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{1CCEC849-CC72-4C59-8C36-2F7C38706D4C}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\UnrealEngine\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natstepfilter = ..\..\UnrealEngine\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natstepfilter
 		..\..\UnrealEngine\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natvis = ..\..\UnrealEngine\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natvis
+		..\..\UnrealEngine\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natstepfilter = ..\..\UnrealEngine\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natstepfilter
 	EndProjectSection
 EndProject
 Global
@@ -128,6 +129,10 @@ Global
 		Development Editor|Win64 = Development Editor|Win64
 		Development|Win64 = Development|Win64
 		Shipping|Win64 = Shipping|Win64
+	EndGlobalSection
+	# UnrealVS Section
+	GlobalSection(ddbf523f-7eb6-4887-bd51-85a714ff87eb) = preSolution
+		AvailablePlatforms=Win64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{41149A93-AD8F-49F1-8267-60A131E857A1}.DebugGame Editor|Win64.ActiveCfg = DebugGame_Editor|x64
@@ -610,13 +615,13 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0BFBE63A-B98A-3411-8EEB-8918FEC737B3} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
-		{57713676-9DBE-331C-AD10-26632AC9EE0C} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
-		{7B5CFB44-F0FB-31DF-AE62-C3C096A29A7B} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
-		{41149A93-AD8F-49F1-8267-60A131E857A1} = {DE1F8B53-6C02-3C13-9101-A7C8D96F3FF6}
 		{0FD59804-4DA6-3F9C-9B94-9AC6C77F8B3B} = {233774A8-CC9D-3FA9-86D1-90573E92B704}
+		{41149A93-AD8F-49F1-8267-60A131E857A1} = {DE1F8B53-6C02-3C13-9101-A7C8D96F3FF6}
 		{D9899164-8E3A-328F-9E35-627A3797EAC7} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
 		{511AF356-3FB5-3A6F-923F-F135C94B4377} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{0BFBE63A-B98A-3411-8EEB-8918FEC737B3} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{7B5CFB44-F0FB-31DF-AE62-C3C096A29A7B} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{57713676-9DBE-331C-AD10-26632AC9EE0C} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
 		{D9365213-CB5D-3EF6-9E24-4FE9714B1E9C} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
 		{9226744C-1BC1-30CD-88FB-3E3F4D244184} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
 		{6E03C996-F862-3E1C-9939-8E687286E9F1} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
@@ -661,11 +666,5 @@ Global
 		{53B79E37-AA9F-3E6B-9F03-6F37CB692C6D} = {C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}
 		{8D2F74AD-EA9C-3DA5-BE59-11AC7E13BCC7} = {C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}
 		{EA12ACBE-5E84-3FBF-A332-379451A7D566} = {C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E17A4560-343B-48A5-BE8F-DCB013E09310}
-	EndGlobalSection
-	GlobalSection(ddbf523f-7eb6-4887-bd51-85a714ff87eb) = preSolution
-		AvailablePlatforms = Win64
 	EndGlobalSection
 EndGlobal
