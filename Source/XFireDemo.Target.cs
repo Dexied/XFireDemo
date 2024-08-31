@@ -8,7 +8,7 @@ public class XFireDemoTarget : TargetRules
 	public XFireDemoTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.V4;
 
 		ExtraModuleNames.AddRange( new string[] { "XFireDemo" } );
 	}
