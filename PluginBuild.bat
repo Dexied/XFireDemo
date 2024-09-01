@@ -1,0 +1,1 @@
+B:\UnrealEngine\UE_5.4\Engine\Build\BatchFiles\RunUAT.bat BuildPlugin -Plugin="B:\Projects\XFireDemo\Plugins\XFire\XFire.uplugin" -Package="B:\Projects\XFireDemo\Builds\XFire" -Rocket -2019
