@@ -13,17 +13,11 @@
 	"Plugins": [
 		{
 			"Name": "XFire",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/49fb7d69d7df41bf94f862ef8d743e02"
+			"Enabled": true
 		},
 		{
 			"Name": "Bridge",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
-			]
+			"Enabled": true
 		}
 	]
 }
