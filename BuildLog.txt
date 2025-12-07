@@ -1,0 +1,101 @@
+Running AutomationTool...
+Using bundled DotNet SDK version: 8.0.412 win-x64
+Starting AutomationTool...
+Parsing command line: BuildPlugin -Plugin=B:\Projects\XFireDemo\Plugins\XFire\XFire.uplugin -Package=B:\Projects\XFireDemo\Builds\XFire -Rocket -2019
+Initializing script modules...
+Total script module initialization time: 0.24 s.
+Using B:\VisualStudio2022\MSBuild\Current\Bin\MSBuild.exe
+Executing commands...
+Copying 368 file(s) using max 64 thread(s)
+Reading plugin from B:\Projects\XFireDemo\Builds\XFire\HostProject\Plugins\XFire\XFire.uplugin...
+Building plugin for host platforms: Win64
+Running: B:\UnrealEngineSource\UnrealEngine\Engine\Binaries\ThirdParty\DotNet\8.0.412\win-x64\dotnet.exe "B:\UnrealEngineSource\UnrealEngine\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealEditor Win64 Development -Project="B:\Projects\XFireDemo\Builds\XFire\HostProject\HostProject.uproject" -plugin="B:\Projects\XFireDemo\Builds\XFire\HostProject\Plugins\XFire\XFire.uplugin" -noubtmakefiles -manifest="B:\Projects\XFireDemo\Builds\XFire\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml" -nohotreload -log="B:\UnrealEngineSource\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UBA-UnrealEditor-Win64-Development.txt"
+Log file: B:\UnrealEngineSource\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UBA-UnrealEditor-Win64-Development.txt
+Using 'git status' to determine working set for adaptive non-unity build (B:\UnrealEngineSource\UnrealEngine).
+UHT compiled-in object format Default
+Parsing headers for UnrealEditor
+  Running Internal UnrealHeaderTool B:\Projects\XFireDemo\Builds\XFire\HostProject\HostProject.uproject B:\Projects\XFireDemo\Builds\XFire\HostProject\Intermediate\Build\Win64\UnrealEditor\Development\UnrealEditor.uhtmanifest -WarningsAsErrors
+UHT processed UnrealEditor in 2.0436725 seconds (16 files written)
+Writing manifest to B:\Projects\XFireDemo\Builds\XFire\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml
+Building UnrealEditor...
+Using Visual Studio 2022 14.44.35220 toolchain (B:\VisualStudio2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from OnlineSubsystemUtils unity file: FindSessionsCallbackProxy.cpp
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+Using Unreal Build Accelerator local executor to run 4 action(s)
+  Storage capacity 40Gb
+---- Starting trace: 251207_161003 ----
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[1/4] Compile [x64] Module.XFire.cpp
+[2/4] Link [x64] UnrealEditor-XFire.lib
+[3/4] Link [x64] UnrealEditor-XFire.dll
+[4/4] WriteMetadata UnrealEditor.target [NoUba]
+
+Trace written to file B:/UnrealEngineSource/UnrealEngine/Engine/Programs/AutomationTool/Saved/Logs/UBA-UnrealEditor-Win64-Development.uba with size 3.6kb
+Total time in Unreal Build Accelerator local executor: 5.17 seconds
+
+Result: Succeeded
+Total execution time: 18.47 seconds
+Took 18,86s to run dotnet.exe, ExitCode=0
+Building plugin for target platforms: Android, IOS, Linux, LinuxArm64, TVOS, Win64, VisionOS
+Running: B:\UnrealEngineSource\UnrealEngine\Engine\Binaries\ThirdParty\DotNet\8.0.412\win-x64\dotnet.exe "B:\UnrealEngineSource\UnrealEngine\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealGame Win64 Development -Project="B:\Projects\XFireDemo\Builds\XFire\HostProject\HostProject.uproject" -plugin="B:\Projects\XFireDemo\Builds\XFire\HostProject\Plugins\XFire\XFire.uplugin" -noubtmakefiles -manifest="B:\Projects\XFireDemo\Builds\XFire\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml" -nohotreload -log="B:\UnrealEngineSource\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UBA-UnrealGame-Win64-Development.txt"
+Log file: B:\UnrealEngineSource\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UBA-UnrealGame-Win64-Development.txt
+Using 'git status' to determine working set for adaptive non-unity build (B:\UnrealEngineSource\UnrealEngine).
+UHT compiled-in object format Default
+Parsing headers for UnrealGame
+  Running Internal UnrealHeaderTool B:\Projects\XFireDemo\Builds\XFire\HostProject\HostProject.uproject B:\Projects\XFireDemo\Builds\XFire\HostProject\Intermediate\Build\Win64\UnrealGame\Development\UnrealGame.uhtmanifest -WarningsAsErrors
+UHT processed UnrealGame in 1.146813 seconds (16 files written)
+Writing manifest to B:\Projects\XFireDemo\Builds\XFire\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml
+Building UnrealGame...
+Using Visual Studio 2022 14.44.35220 toolchain (B:\VisualStudio2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from OnlineSubsystemUtils unity file: FindSessionsCallbackProxy.cpp
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+Using Unreal Build Accelerator local executor to run 1 action(s)
+  Storage capacity 40Gb
+---- Starting trace: 251207_161012 ----
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[1/1] Compile [x64] Module.XFire.cpp
+
+Trace written to file B:/UnrealEngineSource/UnrealEngine/Engine/Programs/AutomationTool/Saved/Logs/UBA-UnrealGame-Win64-Development.uba with size 3.1kb
+Total time in Unreal Build Accelerator local executor: 11.84 seconds
+
+Result: Succeeded
+Total execution time: 15.85 seconds
+Took 16,03s to run dotnet.exe, ExitCode=0
+Running: B:\UnrealEngineSource\UnrealEngine\Engine\Binaries\ThirdParty\DotNet\8.0.412\win-x64\dotnet.exe "B:\UnrealEngineSource\UnrealEngine\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealGame Win64 Shipping -Project="B:\Projects\XFireDemo\Builds\XFire\HostProject\HostProject.uproject" -plugin="B:\Projects\XFireDemo\Builds\XFire\HostProject\Plugins\XFire\XFire.uplugin" -noubtmakefiles -manifest="B:\Projects\XFireDemo\Builds\XFire\HostProject\Saved\Manifest-UnrealGame-Win64-Shipping.xml" -nohotreload -log="B:\UnrealEngineSource\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UBA-UnrealGame-Win64-Shipping.txt"
+Log file: B:\UnrealEngineSource\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UBA-UnrealGame-Win64-Shipping.txt
+Using 'git status' to determine working set for adaptive non-unity build (B:\UnrealEngineSource\UnrealEngine).
+UHT compiled-in object format Default
+Parsing headers for UnrealGame
+  Running Internal UnrealHeaderTool B:\Projects\XFireDemo\Builds\XFire\HostProject\HostProject.uproject B:\Projects\XFireDemo\Builds\XFire\HostProject\Intermediate\Build\Win64\UnrealGame\Shipping\UnrealGame.uhtmanifest -WarningsAsErrors
+UHT processed UnrealGame in 1.0195649 seconds (0 files written)
+Writing manifest to B:\Projects\XFireDemo\Builds\XFire\HostProject\Saved\Manifest-UnrealGame-Win64-Shipping.xml
+Building UnrealGame...
+Using Visual Studio 2022 14.44.35220 toolchain (B:\VisualStudio2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from OnlineSubsystemUtils unity file: FindSessionsCallbackProxy.cpp
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+Using Unreal Build Accelerator local executor to run 1 action(s)
+  Storage capacity 40Gb
+---- Starting trace: 251207_161029 ----
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[1/1] Compile [x64] Module.XFire.cpp
+
+Trace written to file B:/UnrealEngineSource/UnrealEngine/Engine/Programs/AutomationTool/Saved/Logs/UBA-UnrealGame-Win64-Shipping.uba with size 3.1kb
+Total time in Unreal Build Accelerator local executor: 11.22 seconds
+
+Result: Succeeded
+Total execution time: 15.65 seconds
+Took 15,84s to run dotnet.exe, ExitCode=0
+Reading filter rules from B:\Projects\XFireDemo\Builds\XFire\HostProject\Plugins\XFire\Config\FilterPlugin.ini
+Loading FilterPluginAndroid.ini
+Loading FilterPluginIOS.ini
+Loading FilterPluginLinux.ini
+Loading FilterPluginLinuxArm64.ini
+Loading FilterPluginTVOS.ini
+Loading FilterPluginWin64.ini
+Loading FilterPluginVisionOS.ini
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 0m 51s
+AutomationTool exiting with ExitCode=0 (Success)
